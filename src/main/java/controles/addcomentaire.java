@@ -176,7 +176,6 @@ public class addcomentaire {
 
             if (selection.getSignalements() > 4) {
 
-                sendTwilioMessage();
                 ps.delete(selection.getId());
             }
         }
@@ -184,27 +183,7 @@ public class addcomentaire {
         Parent root = fxmlLoader.load(getClass().getResource("/addcomentaire.fxml"));
         btn_signal.getScene().setRoot(root);
     }
-    private void sendTwilioMessage() {
-        try {
-            Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
-            String toPhoneNumber = "+21653560823";
-            String msgContent = "WARNING: a comment have been deleted.";
-
-
-            Message message = Message.creator(
-                            new PhoneNumber(toPhoneNumber),
-                            new PhoneNumber(TWILIO_PHONE_NUMBER),
-                            msgContent)
-                    .create();
-
-            System.out.println("Sent message w/ SID: " + message.getSid());
-
-        } catch (ApiException e) {
-            System.err.println("Error sending SMS: " + e.getMessage());
-
-        }
-    }
     @FXML
     void annuler(ActionEvent event) {
         try {
