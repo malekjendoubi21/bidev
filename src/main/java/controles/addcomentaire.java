@@ -19,10 +19,6 @@ import java.util.List;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import com.twilio.Twilio;
-import com.twilio.exception.ApiException;
-import com.twilio.rest.api.v2010.account.Message;
-import com.twilio.type.PhoneNumber;
 
 
 public class addcomentaire {
