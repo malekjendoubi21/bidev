@@ -12,7 +12,7 @@
     <children>
         <Text fx:id="nomlabel" layoutX="729.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="97.33673095703125" />
         <ImageView fx:id="profileimage" fitHeight="94.0" fitWidth="106.0" layoutX="824.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
-        <Button fx:id="pro" layoutX="787.0" layoutY="565.0" mnemonicParsing="false" onAction="#pro" prefHeight="80.0" prefWidth="124.0" text="profile" />
+        <Button fx:id="pro" layoutX="787.0" layoutY="565.0" mnemonicParsing="false" onAction="#pro" prefHeight="80.0" prefWidth="124.0" styleClass="purple-button" stylesheets="@styles/style.css" text="profile" />
         <Text fx:id="labelprenom" layoutX="640.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="89.33673095703125" />
       <Text layoutX="339.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="back" wrappingWidth="97.33673095703125">
          <font>
@@ -32,7 +32,7 @@
             <Image url="@doctor.png" />
          </image>
       </ImageView>
-      <Button layoutX="117.0" layoutY="416.0" mnemonicParsing="false" onAction="#affuser" text="liste user" />
-      <Button layoutX="257.0" layoutY="416.0" mnemonicParsing="false" onAction="#aduser" text="ajouter user" />
+      <Button layoutX="117.0" layoutY="416.0" mnemonicParsing="false" onAction="#affuser" styleClass="purple-button" stylesheets="@styles/style.css" text="liste user" />
+      <Button layoutX="257.0" layoutY="416.0" mnemonicParsing="false" onAction="#aduser" styleClass="pink-button" stylesheets="@styles/style.css" text="ajouter user" />
     </children>
 </AnchorPane>

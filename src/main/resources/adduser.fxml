@@ -25,12 +25,12 @@
       <Text layoutX="19.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="roles" />
       <Text layoutX="9.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" wrappingWidth="41.66015625" />
       <Text layoutX="11.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="prenom" />
-      <Button fx:id="ajouter" layoutX="130.0" layoutY="359.0" mnemonicParsing="false" onAction="#adduser" text="ajouter" />
+      <Button fx:id="ajouter" layoutX="130.0" layoutY="359.0" mnemonicParsing="false" onAction="#adduser" styleClass="pink-button" stylesheets="@styles/style.css" text="ajouter" />
       <TextField fx:id="profileImage" layoutX="374.0" layoutY="317.0" />
       <Text layoutX="266.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="profileImage" />
       <DatePicker fx:id="birth" layoutX="374.0" layoutY="153.0" />
-      <Button layoutX="487.0" layoutY="359.0" mnemonicParsing="false" onAction="#annuler" text="Annuler" />
-      <Button fx:id="browseImageButton" layoutX="501.0" layoutY="260.0" onAction="#browseImage" text="Parcourir" />
+      <Button layoutX="487.0" layoutY="359.0" mnemonicParsing="false" onAction="#annuler" styleClass="purple-button" stylesheets="@styles/style.css" text="Annuler" />
+      <Button fx:id="browseImageButton" layoutX="501.0" layoutY="260.0" onAction="#browseImage" styleClass="pink-button" stylesheets="@styles/style.css" text="Parcourir" />
       <ImageView fx:id="userImageView" fitHeight="86.0" fitWidth="67.0" layoutX="400.0" layoutY="224.0" />
       <ComboBox fx:id="gender" layoutX="359.0" layoutY="81.0" prefWidth="150.0" />
 

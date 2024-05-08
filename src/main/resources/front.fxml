@@ -9,7 +9,7 @@
    <children>
       <Text fx:id="nomlabel" layoutX="729.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="97.33673095703125" />
       <ImageView fx:id="profileimage" fitHeight="94.0" fitWidth="106.0" layoutX="824.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
-      <Button fx:id="pro" layoutX="635.0" layoutY="471.0" mnemonicParsing="false" onAction="#pro" text="profile" />
+      <Button fx:id="pro" layoutX="635.0" layoutY="471.0" mnemonicParsing="false" onAction="#pro" styleClass="purple-button" stylesheets="@styles/style.css" text="profile" />
       <Text fx:id="labelprenom" layoutX="640.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="89.33673095703125" />
    </children>
 </AnchorPane>
