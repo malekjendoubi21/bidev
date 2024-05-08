@@ -1,0 +1,4 @@
+.light-green-button {
+    -fx-background-color: lightgreen;
+    -fx-text-fill: black; /* Optionally change text color */
+}
